@@ -1,5 +1,5 @@
 # Что делает?
-Устанавливает docker & docker-compose для Ubuntu сервера через ssh.
+Устанавливает docker & docker-compose на Ubuntu сервер через ssh.
 
 # Как юзать?
 1. Добавь свой ssh key на сервер
