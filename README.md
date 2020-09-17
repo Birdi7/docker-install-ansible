@@ -7,3 +7,6 @@
 3. Поменяй в [provisioning/hosts.yml](provisioning/hosts.yml) переменную `ansible_host` на идентификатор твоего сервера
 4. Запусти `ansible-playbook provisioning/site.yml -i provisioning/hosts.yml`
 5. Радуйся
+
+# Что-то не работает
+1. Проверь `sudo systemctl status docker`. Если статус мертв - `sudo systemctl run docker`
